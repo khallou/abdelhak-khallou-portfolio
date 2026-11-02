@@ -1,0 +1,428 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abdelhak Khallou | Research Scientist</title>
+<meta name="description" content="Research profile of Abdelhak Khallou, plant virology, phytopathology, molecular diagnostics and biotechnology.">
+
+<style>
+:root {
+  --navy: #102a43;
+  --blue: #176b87;
+  --teal: #20a39e;
+  --light: #f3f7fa;
+  --text: #34495e;
+  --white: #ffffff;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: Arial, sans-serif;
+  color: var(--text);
+  line-height: 1.7;
+  background: var(--white);
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(16,42,67,.97);
+  padding: 15px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo { color: white; font-weight: bold; font-size: 21px; }
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 17px;
+  font-size: 13px;
+}
+
+nav a:hover { color: #54d6c8; }
+
+.hero {
+  min-height: 520px;
+  padding: 100px 8%;
+  background: linear-gradient(120deg,#102a43,#176b87);
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content { max-width: 850px; }
+
+.hero h1 { font-size: clamp(35px,5vw,58px); line-height: 1.2; }
+
+.hero h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #8ce0d5;
+  margin: 20px 0;
+}
+
+.hero p { max-width: 720px; font-size: 17px; }
+
+.btn {
+  display: inline-block;
+  margin: 25px 10px 0 0;
+  padding: 12px 23px;
+  border-radius: 5px;
+  background: var(--teal);
+  color: white;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.btn:hover { transform: translateY(-3px); background: #16847f; }
+
+section { padding: 75px 8%; scroll-margin-top: 65px; }
+
+section:nth-of-type(even) { background: var(--light); }
+
+.section-title {
+  color: var(--navy);
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+.underline {
+  width: 65px;
+  height: 4px;
+  background: var(--teal);
+  margin-bottom: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+  gap: 22px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0,0,0,.06);
+  transition: .3s;
+}
+
+.card:hover { transform: translateY(-5px); }
+
+.card h3 { color: var(--blue); margin-bottom: 12px; }
+
+.tag {
+  display: inline-block;
+  background: #e2f3f2;
+  color: #176b87;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 12px;
+  margin: 4px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.stat {
+  background: white;
+  padding: 22px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.stat strong {
+  display: block;
+  color: var(--teal);
+  font-size: 30px;
+}
+
+a { color: var(--blue); }
+
+.profile-links a {
+  display: inline-block;
+  margin: 8px;
+  padding: 12px 18px;
+  border: 1px solid var(--teal);
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  background: var(--navy);
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: .7s;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media(max-width:750px) {
+  nav { gap: 10px; }
+  nav a { margin: 5px; }
+  .hero { padding: 75px 7%; }
+  section { padding: 55px 7%; }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div class="logo">AK | Research</div>
+  <div>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#projects">Projects</a>
+    <a href="#publications">Publications</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-content">
+    <h1>Abdelhak KHALLOU</h1>
+    <h2>Research Engineer | Plant Virology | Phytopathology</h2>
+    <p>
+      Researcher at the Regional Agricultural Research Center of Oujda,
+      National Institute of Agricultural Research (INRA), Morocco.
+      Working on plant viruses, fungal pathogens, molecular diagnostics,
+      genomic characterization and sustainable plant protection.
+    </p>
+    <a class="btn" href="#research">Explore my research</a>
+    <a class="btn" href="https://scholar.google.com/citations?user=mmkFrvoAAAAJ"
+       target="_blank">Google Scholar</a>
+  </div>
+</header>
+
+<section id="about" class="reveal">
+  <h2 class="section-title">About Me</h2>
+  <div class="underline"></div>
+  <p>
+    I am a Research Engineer in Plant Protection at INRA Morocco,
+    based at the Regional Agricultural Research Center of Oujda.
+    My research focuses on plant virus diversity, fungal diseases,
+    molecular diagnosis and the development of sustainable strategies
+    for crop health management.
+  </p>
+  <p>
+    My work combines field surveys, laboratory diagnosis, molecular
+    biology, pathogen sequencing, phylogenetic analysis and
+    bioinformatics to investigate emerging and economically important
+    plant diseases.
+  </p>
+  <div class="stats">
+    <div class="stat"><strong>17+</strong>Scientific articles contributed</div>
+    <div class="stat"><strong>INRA</strong>Research institution</div>
+    <div class="stat"><strong>2022</strong>Since joining INRA</div>
+  </div>
+</section>
+
+<section id="research" class="reveal">
+  <h2 class="section-title">Research Interests</h2>
+  <div class="underline"></div>
+  <div class="grid">
+    <div class="card">
+      <h3>Plant Virology</h3>
+      <p>Detection, identification, genetic diversity and molecular characterization of plant viruses and viroids.</p>
+    </div>
+    <div class="card">
+      <h3>Phytopathology</h3>
+      <p>Fungal pathogen identification, disease epidemiology and characterization of emerging plant diseases.</p>
+    </div>
+    <div class="card">
+      <h3>Genomics & Sequencing</h3>
+      <p>Oxford Nanopore sequencing, genome reconstruction, sequence analysis and molecular diagnostics.</p>
+    </div>
+    <div class="card">
+      <h3>Sustainable Plant Protection</h3>
+      <p>Biological control, microbial antagonists and integrated disease management.</p>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="reveal">
+  <h2 class="section-title">Research Projects</h2>
+  <div class="underline"></div>
+  <div class="grid">
+    <div class="card">
+      <h3>Citrus Diseases</h3>
+      <p>Investigation of citrus viroids, citrus tristeza virus, root diseases, dieback and fungal pathogens in northeastern Morocco.</p>
+      <span class="tag">CEVd</span>
+      <span class="tag">HSVd</span>
+      <span class="tag">Fusarium</span>
+    </div>
+    <div class="card">
+      <h3>Cucurbit Viruses</h3>
+      <p>Survey and molecular characterization of viruses affecting melon and zucchini in the Oriental and Souss-Massa regions.</p>
+      <span class="tag">WMV</span>
+      <span class="tag">CABYV</span>
+      <span class="tag">ToLCNDV</span>
+      <span class="tag">CpCDV</span>
+    </div>
+    <div class="card">
+      <h3>Fungal Pathogens</h3>
+      <p>Identification and characterization of fungal pathogens associated with citrus dieback, cankers and root diseases.</p>
+      <span class="tag">Fusarium</span>
+      <span class="tag">Colletotrichum</span>
+      <span class="tag">Botryosphaeriaceae</span>
+    </div>
+    <div class="card">
+      <h3>Biological Control</h3>
+      <p>Evaluation of Trichoderma and bacterial antagonists as sustainable alternatives for plant disease management.</p>
+      <span class="tag">Trichoderma</span>
+      <span class="tag">Bacillus</span>
+      <span class="tag">Biocontrol</span>
+    </div>
+    <div class="card">
+      <h3>Huanglongbing (HLB)</h3>
+      <p>Field and molecular diagnostic experience in citrus greening disease during a research visit at Texas A&M AgriLife Research.</p>
+      <span class="tag">HLB</span>
+      <span class="tag">Candidatus Liberibacter</span>
+    </div>
+  </div>
+</section>
+
+<section id="publications" class="reveal">
+  <h2 class="section-title">Scientific Publications</h2>
+  <div class="underline"></div>
+  <p>
+    My scientific contributions cover plant virology, fungal
+    phytopathology, citrus diseases and sustainable crop protection.
+    Visit my research profiles for the complete and updated list
+    of publications.
+  </p>
+  <div class="profile-links">
+    <a href="https://scholar.google.com/citations?user=mmkFrvoAAAAJ"
+       target="_blank">View Google Scholar publications ↗</a>
+    <a href="https://orcid.org/0000-0001-7336-3353"
+       target="_blank">View ORCID profile ↗</a>
+  </div>
+  <div class="card">
+    <h3>Featured Research</h3>
+    <p>
+      Citrus dieback associated with fungal pathogens in Morocco,
+      including the first report of Diplodia seriata and
+      Dothiorella viticola.
+    </p>
+    <p>
+      <a href="https://doi.org/10.1002/ndr2.70082" target="_blank">
+        Read the research article (DOI) ↗
+      </a>
+    </p>
+  </div>
+</section>
+
+<section id="skills" class="reveal">
+  <h2 class="section-title">Technical Skills</h2>
+  <div class="underline"></div>
+  <div class="grid">
+    <div class="card">
+      <h3>Molecular Biology</h3>
+      <span class="tag">PCR</span>
+      <span class="tag">RT-PCR</span>
+      <span class="tag">Real-time qPCR</span>
+      <span class="tag">ELISA</span>
+      <span class="tag">DNA/RNA extraction</span>
+    </div>
+    <div class="card">
+      <h3>Sequencing & Bioinformatics</h3>
+      <span class="tag">Oxford Nanopore</span>
+      <span class="tag">MinION</span>
+      <span class="tag">Genome reconstruction</span>
+      <span class="tag">BLAST</span>
+      <span class="tag">MEGA</span>
+      <span class="tag">Geneious</span>
+    </div>
+    <div class="card">
+      <h3>Data Analysis</h3>
+      <span class="tag">R</span>
+      <span class="tag">SPSS</span>
+      <span class="tag">Minitab</span>
+      <span class="tag">ANOVA</span>
+      <span class="tag">PCA</span>
+      <span class="tag">Phylogenetics</span>
+    </div>
+  </div>
+</section>
+
+<section id="experience" class="reveal">
+  <h2 class="section-title">Professional Experience & Education</h2>
+  <div class="underline"></div>
+  <div class="card">
+    <h3>Research Engineer – INRA Morocco</h3>
+    <p>July 2022 – Present | Regional Agricultural Research Center of Oujda</p>
+    <p>Plant protection, virology, phytopathology and molecular diagnosis.</p>
+  </div>
+  <br>
+  <div class="card">
+    <h3>Technical & Development Manager – Koppert Morocco</h3>
+    <p>September 2021 – June 2022</p>
+    <p>Integrated pest management and biological control.</p>
+  </div>
+  <br>
+  <div class="card">
+    <h3>Engineering Degree – ENA Meknès</h3>
+    <p>2017 – 2021 | Plant and Environmental Protection.</p>
+  </div>
+</section>
+
+<section id="contact" class="reveal">
+  <h2 class="section-title">Contact & Research Profiles</h2>
+  <div class="underline"></div>
+  <p><strong>Abdelhak KHALLOU</strong></p>
+  <p>Research Engineer – Plant Protection</p>
+  <p>Regional Agricultural Research Center of Oujda – INRA Morocco</p>
+  <p>Email: Abdelhak.khallou@inra.ma</p>
+  <div class="profile-links">
+    <a href="https://orcid.org/0000-0001-7336-3353" target="_blank">ORCID ↗</a>
+    <a href="https://scholar.google.com/citations?user=mmkFrvoAAAAJ" target="_blank">Google Scholar ↗</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Abdelhak KHALLOU | Research & Scientific Portfolio</p>
+  <p>Plant Virology · Phytopathology · Molecular Biology</p>
+</footer>
+
+<script>
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("visible");
+    }
+  });
+}, {threshold: 0.12});
+
+document.querySelectorAll(".reveal").forEach(section => {
+  observer.observe(section);
+});
+</script>
+
+</body>
+</html>
